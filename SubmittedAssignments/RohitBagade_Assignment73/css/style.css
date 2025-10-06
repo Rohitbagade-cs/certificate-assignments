@@ -1,9 +1,5 @@
-/* ========================================
-   CERTIFICATE DESIGN - ASSIGNMENT STYLESHEET
-   Created for: ApnaGuru Certificate Assignment
-   Developer: Rohit Bagade
-   Units: mm (millimeters) for layout, pt (points) for fonts
-   ======================================== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Great+Vibes&family=Open+Sans:wght@400;600&display=swap');
+
 
 /* ========================================
    RESET & BASE STYLES
@@ -23,17 +19,9 @@
 	overflow: hidden;
 }
 body {
-    /* background-color: #c0c0c0;
-    background-image: linear-gradient(45deg, #b8b8b8 25%, transparent 25%),
-                      linear-gradient(-45deg, #b8b8b8 25%, transparent 25%),
-                      linear-gradient(45deg, transparent 75%, #b8b8b8 75%),
-                      linear-gradient(-45deg, transparent 75%, #b8b8b8 75%);
-    background-size: 10mm 10mm;
-    background-position: 0 0, 0 5mm, 5mm -5mm, -5mm 0mm; */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* min-height: 100vh; */
     padding: 10mm;
     font-family: 'Open Sans', Arial, sans-serif;
 }
@@ -69,7 +57,7 @@ body {
     left: 0;
     border-top: 65mm solid #d01b2a;
     border-right: 70mm solid transparent;
-    animation: slideInTopLeft 0.8s ease-out;
+    
 	z-index: 0;
 }
 
@@ -78,7 +66,7 @@ body {
     right: 0;
     border-top: 65mm solid #d01b2a;
     border-left: 70mm solid transparent;
-    animation: slideInTopRight 0.8s ease-out;
+    
 	z-index: 0;
 }
 
@@ -87,7 +75,7 @@ body {
     left: 0;
     border-bottom: 65mm solid #d01b2a;
     border-right: 70mm solid transparent;
-    animation: slideInBottomLeft 0.8s ease-out;
+    
 	z-index: 0;
 }
 
@@ -96,7 +84,7 @@ body {
     right: 0;
     border-bottom: 65mm solid #d01b2a;
     border-left: 70mm solid transparent;
-    animation: slideInBottomRight 0.8s ease-out;
+    
 	z-index: 0;
 }
 
@@ -369,7 +357,6 @@ body {
     right: 25mm;
     bottom: 20mm;
     letter-spacing: 1pt;
-    font-weight: 600;
 }
 .org-address{
     font-family: 'Open Sans', sans-serif;
@@ -382,65 +369,7 @@ body {
     font-weight: 600;
 }
 
-/* ========================================
-   ANIMATIONS
-   ======================================== */
-@keyframes slideInTopLeft {
-    from {
-        transform: translate(-100mm, -100mm);
-        opacity: 0;
-    }
-    to {
-        transform: translate(0, 0);
-        opacity: 1;
-    }
-}
 
-@keyframes slideInTopRight {
-    from {
-        transform: translate(100mm, -100mm);
-        opacity: 0;
-    }
-    to {
-        transform: translate(0, 0);
-        opacity: 1;
-    }
-}
-
-@keyframes slideInBottomLeft {
-    from {
-        transform: translate(-100mm, 100mm);
-        opacity: 0;
-    }
-    to {
-        transform: translate(0, 0);
-        opacity: 1;
-    }
-}
-
-@keyframes slideInBottomRight {
-    from {
-        transform: translate(100mm, 100mm);
-        opacity: 0;
-    }
-    to {
-        transform: translate(0, 0);
-        opacity: 1;
-    }
-}
-
-@keyframes badgePulse {
-    0%, 100% {
-        transform: scale(1);
-        box-shadow: 0mm 3mm 8mm rgba(230, 57, 70, 0.4),
-                    0mm 1mm 3mm rgba(0, 0, 0, 0.3);
-    }
-    50% {
-        transform: scale(1.05);
-        box-shadow: 0mm 4mm 12mm rgba(230, 57, 70, 0.6),
-                    0mm 2mm 5mm rgba(0, 0, 0, 0.4);
-    }
-}
 
 
 /* ========================================

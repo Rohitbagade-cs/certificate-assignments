@@ -4,9 +4,67 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	<title>Certificate of Achievement</title>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Great+Vibes&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
+<style>
+/* ========================================
+   ANIMATIONS
+======================================== */
+.corner-top-left{
+	animation: slideInTopLeft 0.8s ease-out;
+}
+.corner-top-right{
+	animation: slideInTopRight 0.8s ease-out;
+}
+.corner-bottom-left{
+	animation: slideInBottomLeft 0.8s ease-out;
+}
+.corner-bottom-right {
+	animation: slideInBottomRight 0.8s ease-out;
+}
+@keyframes slideInTopLeft {
+    from {
+        transform: translate(-100mm, -100mm);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
 
+@keyframes slideInTopRight {
+    from {
+        transform: translate(100mm, -100mm);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInBottomLeft {
+    from {
+        transform: translate(-100mm, 100mm);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInBottomRight {
+    from {
+        transform: translate(100mm, 100mm);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+</style>
 <body>
 	<!--Certificate Wrapper-->
 	<div class="certificate-wrapper">
@@ -39,15 +97,15 @@
             </div>
             <div class="date">Date:26-07-2024 </div>
             <div class="certificate-logo">
-                <img src="./img/certificate-logo.png">
+                <img src="./img/certificate-logo.png" alt="Certificate emblem and decorative logo">
             </div>
-            <img class="sign-president-img" src="./img/president.png">
+            <img class="sign-president-img" src="./img/president.png" alt="President's signature (scanned)">
             <div class="sign-president">Signature of President</div>
-            <img class="sign-director-img" src="./img/director.png">
+            <img class="sign-director-img" src="./img/director.png" alt="Director's signature (scanned)">
 			<div class="sign-director">Signature of Director</div>
 
             <div class="org-logo">
-				<img src="./img/org-logo.png">
+                <img src="./img/org-logo.png" alt="Maha Mission Education and Career Council logo">
 			</div>
 
 			<div class="org-name">Maha Mission Education and Career Council</div>
