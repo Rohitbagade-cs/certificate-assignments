@@ -11,8 +11,7 @@
 	position: absolute;
 	background-color: rgb(218, 216, 216);
 	overflow:hidden;
-	top:0mm;
-	left: 0mm;
+	
 }
 body {
     display: flex;
