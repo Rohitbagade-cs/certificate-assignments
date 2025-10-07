@@ -13,13 +13,7 @@
 	overflow:hidden;
 	
 }
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10mm;
-    font-family: 'Open Sans', Arial, sans-serif;
-}
+
 
 /* ========================================
    CERTIFICATE CONTAINER

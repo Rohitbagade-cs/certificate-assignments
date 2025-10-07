@@ -47,77 +47,112 @@ body {
 .corner-stripe-tl-orange {
     position: absolute;
     border-style: solid;
-	left: 20mm;
+	left: -25mm;
     border-width: 15mm 15mm 10mm 10mm;
-    border-color: #f7b76d transparent transparent transparent;
-    z-index: 2;
-	width: 250px;  /* Long enough to stretch across the corner */
-  transform: rotate(-45deg);
-  z-index: 44;
-  padding: 55mm;
+    border-color: #f7b76d transparent transparent transparent; 
+    z-index: 44;
+    transform: rotateZ(-40deg);
+    top: 40mm;
+    width: 100mm;
+    height: -5mm;
+    transform-origin: left center;
+
 }
 
 .corner-stripe-tl-white {
     position: absolute;
     border-style: solid;
-	left: 20mm;
+	left: -25mm;
     border-width: 15mm 15mm 10mm 10mm;
-    border-color: #f70404 transparent transparent transparent;
-    z-index: 3;
-	width: 200px;
-	transform: rotate(-45deg);
-  z-index: 44;
-  padding: 20mm ;
+    border-color: #ffffff transparent transparent transparent;
+    z-index: 93;
+	transform: rotateZ(-40deg);
+    top: 55mm;
+    width: 150mm;
+    height: -5mm;
+    transform-origin: left center;
+    margin-bottom: 3mm;
+    border-bottom: 1mm solid #f7b76d;
 }
 
 .corner-stripe-tl-blue {
     position: absolute;
-	border-style: solid;
-	left: 20mm;
-	border-width: 15mm 15mm 10mm 10mm;
-	border-color: #0077be transparent transparent transparent;
-	z-index: 4;
-	width: 150px;
-	transform: rotate(-45deg);
-  z-index: 44;
-  padding: 10mm ;
+    border-style: solid;
+	left: -25mm;
+    border-width: 15mm 15mm 10mm 10mm;
+    background-color: #0077be;
+	border-color: #ffffff transparent transparent transparent;
+	z-index: 63;
+	transform: rotateZ(-40deg);
+    top: 70mm;
+    width: 150mm;
+    height: -5mm;
+    transform-origin: left center;
+    margin: -5mm;
 }
+.corner-stripe-tl-white-2{
+    position: absolute;
+    border-style: solid;
+	left: -25mm;
+    border-width: 15mm 15mm 10mm 10mm;
+	border-color: #0077be transparent transparent transparent;
+	z-index: 63;
+	transform: rotateZ(-40deg);
+    top: 70mm;
+    width: 155mm;
+    height: -2mm;
+    transform-origin: left center;
+    margin: 5mm;
+    border: 7mm solid #ffffff;
+    
 
+}
 /* BOTTOM RIGHT CORNER - DIAGONAL STRIPES */
 .corner-stripe-br-blue {
     position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 0;
-    height: 0;
     border-style: solid;
-    border-width: 0 0 40mm 40mm;
-    border-color: transparent transparent #0077be transparent;
-    z-index: 2;
+	left: -25mm;
+    border-width: 15mm 15mm 10mm 10mm;
+	border-color: #ffffff transparent transparent transparent;
+	z-index: 73;
+	transform: rotateZ(-40deg);
+    top: 70mm;
+    width: 100mm;
+    height: -5mm;
+    transform-origin: left center;
+    margin: 5mm;
 }
 
 .corner-stripe-br-white {
     position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 0;
-    height: 0;
     border-style: solid;
-    border-width: 0 0 34mm 34mm;
-    border-color: transparent transparent #ffffff transparent;
-    z-index: 3;
+	right: -25mm;
+    border-width: 15mm 15mm 10mm 10mm;
+    border-color: #ffffff transparent transparent transparent;
+    background-color: #ffffff;
+    z-index: 33;
+	transform: rotateZ(-40deg);
+    bottom: 60mm;
+    width: 160mm;
+    height: 20mm;
+    transform-origin: right center;
+    margin-top: 4mm;
+    border-top: 1mm solid #f7b76d;
+    
 }
 
 .corner-stripe-br-orange {
     position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 0;
-    height: 0;
     border-style: solid;
-    border-width: 0 0 28mm 28mm;
-    border-color: transparent transparent #ffb347 transparent;
-    z-index: 4;
+	right: -25mm;
+    border-width: 15mm 15mm 10mm 10mm;
+    border-color: #f7b76d transparent transparent transparent; 
+    z-index: 44;
+    transform: rotateZ(-40deg);
+    bottom: 28mm;
+    width: 100mm;
+    height: -5mm;
+    transform-origin: right center;
 }
 
 /* CORNER ACCENT LINES - DECORATIVE ELEMENTS */
