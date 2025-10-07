@@ -4,11 +4,7 @@
 /* ========================================
    RESET & BASE STYLES
    ======================================== */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 .certificate-wrapper {
 	width: 297mm;
 	height: 210mm;
